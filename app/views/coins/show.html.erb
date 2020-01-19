@@ -11,8 +11,8 @@
 </p>
 
 <p>
-  <strong>Url image:</strong>
-  <%= @coin.url_image %>
+  <strong>Image:</strong>
+  <img src="<%= @coin.url_image %>" width="25px" height="25px" /> 
 </p>
 
 <%= link_to 'Edit', edit_coin_path(@coin) %> |
