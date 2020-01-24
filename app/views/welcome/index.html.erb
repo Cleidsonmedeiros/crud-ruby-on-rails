@@ -2,12 +2,7 @@
 <p>  Welcome to my website in ruby on rails.</p>
 <p> <strong>Data:</strong> <%= data_br(Date.today) %>
 
-
-<ul>
-	<li>
-		<%= link_to "Cadastro de Moedas", coins_path %>
-	</li>
-</ul>
+<%= render "menu" %>
 
 <p> You are using a <%= ambient_rails %> </p>
 <p> Your Name is: <%= @name %> </p>
