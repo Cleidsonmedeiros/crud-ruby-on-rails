@@ -2,10 +2,10 @@
 
 one:
   description: MyString
-  acronyn: MyString
+  acronym: MyString
   url_image: MyString
 
 two:
   description: MyString
-  acronyn: MyString
+  acronym: MyString
   url_image: MyString

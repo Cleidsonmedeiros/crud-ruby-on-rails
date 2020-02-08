@@ -1,8 +1,14 @@
-<h1>Hello World!!!</h1>
-<p>  Welcome to my website in ruby on rails.</p>
-<p> <strong>Data:</strong> <%= data_br(Date.today) %>
+<h1>Seja Bem-Vindo!</h1>
+<p><strong>Data:</strong> <%= data_br(Date.today) %></p>
 
 <%= render "menu" %>
-
-<p> You are using a <%= ambient_rails %> </p>
-<p> Your Name is: <%= @name %> </p>
+ 
+<p>
+    Você está em ambiente de <strong><%= ambiente_rails %></strong>
+</p>
+<p>
+   Eu sou uma variável de instância/sessão <strong><%= @meu_nome %></strong>
+</p>
+<p>
+    Meu curso é o curso de <strong><%= @curso %></strong>
+</p>

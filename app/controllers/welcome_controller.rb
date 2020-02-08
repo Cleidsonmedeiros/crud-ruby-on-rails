@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
-	  @name = params[:name]
+    @meu_nome = params[:nome]
+    @curso = params[:curso]
   end
 end

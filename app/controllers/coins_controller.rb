@@ -1,5 +1,6 @@
 class CoinsController < ApplicationController
   layout "adm"
+  
   before_action :set_coin, only: [:show, :edit, :update, :destroy]
 
   # GET /coins
@@ -70,6 +71,6 @@ class CoinsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def coin_params
-      params.require(:coin).permit(:description, :acronyn, :url_image)
+      params.require(:coin).permit(:description, :acronym, :url_image)
     end
 end
